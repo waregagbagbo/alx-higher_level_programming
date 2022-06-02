@@ -1,5 +1,9 @@
 #!/usr/bin/python3
-import add_0 as y
+from add_0 import add
+a = 1
+b = 2
 
-print(y.add(1,2).format())
+y = add(a,b)
+
+
 
