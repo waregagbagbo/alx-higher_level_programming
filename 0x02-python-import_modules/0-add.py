@@ -1,4 +1,10 @@
 #!/usr/bin/python3
 import add_0 as y
-print(y.add(1,2).format())
+def add():
+    a = 1
+    b = 2
+
+    return a + b
+
+print(y.add().format())
 
