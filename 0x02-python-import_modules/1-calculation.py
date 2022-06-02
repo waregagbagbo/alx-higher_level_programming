@@ -1,6 +1,8 @@
 #!/usr/bin/py0hon3
-import calculator_1
-def add(a, b):
+import calculator_1 as calc
+a = 10
+b = 5
+"""def add(a, b):
     a = 10
     b = 5
 
@@ -25,9 +27,9 @@ def div(a, b):
     b = 5
 
     return a / b
-
-print(add(0, 0))
-print(sub(0, 0))
-print(mul(0, 0))
-print(div(0, 0))
+"""
+print(calc.add(a, b))
+print(calc.div(a, b))
+print(calc.mul(a,b))
+print(calc.div(a, b))
 
