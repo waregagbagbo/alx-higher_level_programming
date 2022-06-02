@@ -6,5 +6,5 @@ def add():
 
     return a + b
 
-print(y.add().format())
+print(y.add(a,b).format())
 
