@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-from add_0 import add
+import add_0
 a = 1
 b = 2
 
-y = add(a,b)
+print(add(a, b))
 
 
 
